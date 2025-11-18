@@ -1,3 +1,10 @@
-jupyterlab
-notebook
+numpy
+matplotlib
+scikit-learn
+joblib
+tqdm
+ipywidgets
 ipykernel
+jupyterlab
+jupyterlab-widgets
+
