@@ -1,5 +1,59 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.Python
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Build directories
 build/
-*.o
-*.pcap
-*.json
+dist/
+
+# --------------------------
+# Jupyter Notebook
+# --------------------------
+.ipynb_checkpoints/
+.notebooks_cache/
+
+# Large outputs (optional)
+*.h5
+*.pt
+*.pickle
+*.pkl
+
+# --------------------------
+# VS Code
+# --------------------------
 .vscode/
+.settings/
+
+# --------------------------
+# OS / File System Junk
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Project-specific
+# --------------------------
+# Generated data & models (already tracked manually)
+# Uncomment below if you don't want git to track them automatically
+# notebooks/data/*.npz
+# notebooks/data/*.joblib
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
